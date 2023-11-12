@@ -1,4 +1,6 @@
 # Análisis de Evolución de Casos de COVID-19 por Región y País
+![image](https://github.com/LUXI4NO/Covid-19/assets/140111840/959b1207-5878-4fa0-9f6e-adffb08936a8)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://covidanalyst.streamlit.app/)
 
 ## Descripción
 
