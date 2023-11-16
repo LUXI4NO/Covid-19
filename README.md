@@ -1,6 +1,6 @@
 # Análisis de Evolución de Casos de COVID-19 por Región y País
-![image](https://github.com/LUXI4NO/Covid-19/assets/140111840/959b1207-5878-4fa0-9f6e-adffb08936a8)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://covidanalyst.streamlit.app/)
+[![Python Version](https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 ## Descripción
 
@@ -14,7 +14,6 @@ Este proyecto se centra en el análisis de datos relativos a casos y defunciones
 - [Uso](#uso)
 - [Estructura del Repositorio](#estructura-del-repositorio)
 - [Dependencias](#dependencias)
-- [Contribución](#contribución)
 - [Autor](#autor)
 - [Casos de Uso y Aplicaciones Futuras](#casos-de-uso-y-aplicaciones-futuras)
 - [Enlaces](#enlaces)
@@ -29,41 +28,42 @@ Este análisis se basa en datos confiables, como los proporcionados por el Centr
 - **Visualización Interactiva:** Utilización de gráficos interactivos a través de las librerías Streamlit y Altair para mostrar la evolución de casos confirmados y fallecimientos.
 - **Comparación de Tendencias:** Análisis comparativo de la propagación del virus en distintas áreas del mundo, facilitando la comprensión de las variaciones y tendencias.
 
----
-
-## Librerías Python Utilizadas
-```python
-import streamlit as st
-import pandas as pd
-import altair as alt
-```
-
 ### Ejemplos de Gráficos Generados
 
-Se incluyen ejemplos de gráficos generados por el análisis. Estos gráficos representan la evolución de casos confirmados y muertes en un formato interactivo, permitiendo explorar diferentes áreas y rangos de tiempo.
-![image](https://github.com/LUXI4NO/Covid-19/assets/140111840/3722f26f-f642-47a5-9574-65b323f650c9)
+A continuación, te comparto ejemplos de gráficos generados mediante el análisis. Estos gráficos ilustran la evolución de casos confirmados y defunciones en un formato interactivo. Además, en el segundo gráfico, se proporciona una perspectiva de la evolución de casos por continentes.
+
+![image](https://github.com/LUXI4NO/Covid-19/assets/140111840/937787d7-b441-4378-bc6c-f24064a94e54)
+
+![image](https://github.com/LUXI4NO/Covid-19/assets/140111840/d508fdf6-8011-416a-a330-1ba4bf5ac2d5)
 
 
 ## Uso
 
 1. Clona el repositorio.
-2. Asegúrate de tener los requisitos necesarios (listados en el archivo `requirements.txt`).
-3. Ejecuta el código principal `main.py`.
-4. Accede al servidor local para interactuar con los gráficos generados.
+2. Crea y activa un entorno virtual de Python usando el siguiente comando:
 
-### Instrucciones más Detalladas de Uso
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Para Linux/Mac
+    .\venv\Scripts\activate   # Para Windows
+    ```
 
-Para ejecutar el código, se recomienda crear un entorno virtual de Python y luego instalar las dependencias con:
+3. Instala las dependencias requeridas con:
 
+    ```bash
+    pip install -r requirements.txt
+    ```
 
+4. Ejecuta el código principal `main.py`.
+5. Accede al servidor local para interactuar con los gráficos generados.
 
-## Estructura del Repositorio
+### Estructura del Repositorio
 
 - `main.py`: Archivo principal con el código para analizar y visualizar los datos.
 - `data/`: Carpeta con los conjuntos de datos empleados en el análisis.
 - `requirements.txt`: Listado de las dependencias necesarias para ejecutar el código.
 
-## Dependencias
+### Dependencias
 
 - Python 3.7 o superior
 - Streamlit
@@ -72,12 +72,13 @@ Para ejecutar el código, se recomienda crear un entorno virtual de Python y lue
 
 ## Autor
 
-Luciano Alvarez
+# Luciano Ezequiel Alvarez
 
-## Casos de Uso y Aplicaciones Futuras
+### Casos de Uso y Aplicaciones Futuras
 
 Este análisis puede ser útil para profesionales de la salud, investigadores y responsables de la toma de decisiones. También puede extenderse para incluir más datos demográficos, análisis predictivos y comparativos entre políticas de diferentes países para abordar la pandemia.
 
-## Enlaces
+### Enlaces
+
 - [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvarezlucianoezequiel@gmail.com)
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luciano-alvarez-332843285/)
